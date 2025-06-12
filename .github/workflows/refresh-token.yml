@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Panggil refresh_token_mbh.php
-        run: curl -s 'https://mbhshop.rf.gd/refresh_token_mbh.php?i=1'
+        run: curl -s 'https://mbhshop.yzz.me//refresh_token_mbh.php?i=1'
