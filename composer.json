@@ -1,0 +1,8 @@
+{
+  "name": "mbhshop/refresh-token",
+  "description": "Shopee auto-refresh token script for MBH Shop",
+  "require": {},
+  "scripts": {
+    "start": "php refresh_token_mbh.php"
+  }
+}
