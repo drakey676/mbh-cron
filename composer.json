@@ -1,11 +1,13 @@
 {
   "name": "drakey676/mbh-cron",
-  "description": "Cron job for refreshing Shopee token",
+  "description": "Refresh token Shopee otomatis via Railway",
   "require": {
     "ext-curl": "*",
     "ext-mysqli": "*"
   },
-  "scripts": {
-    "start": "php refresh_token_mbh.php"
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
   }
 }
