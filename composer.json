@@ -1,7 +1,9 @@
 {
   "name": "drakey676/mbh-cron",
-  "description": "Cronjob untuk refresh token Shopee",
+  "description": "Cronjob untuk refresh token Shopee MBH",
   "require": {
     "ext-curl": "*",
+    "ext-json": "*",
     "ext-mysqli": "*"
   }
+}
