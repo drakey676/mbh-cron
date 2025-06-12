@@ -1,8 +1,7 @@
 {
-  "name": "mbhshop/refresh-token",
-  "description": "Shopee auto-refresh token script for MBH Shop",
-  "require": {},
-  "scripts": {
-    "start": "php refresh_token_mbh.php"
+  "name": "drakey676/mbh-cron",
+  "description": "Cronjob untuk refresh token Shopee",
+  "require": {
+    "ext-curl": "*",
+    "ext-mysqli": "*"
   }
-}
